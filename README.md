@@ -91,3 +91,27 @@ AI/ML
 Python (Scikit-learn)
 Payments  
 Razorpay Test Mode
+
+10. Adversarial Defense & Anti-Spoofing Strategy :
+Core Principle:
+Zero-trust system — no payout is based on a single signal.
+How we detect fraud:
+📍 Location Check: Continuous movement tracking (detects fake GPS)
+📊 Behavior Analysis: Flags unusual activity or claim-only accounts
+🌍 Environmental Match: Verifies claims with real weather/traffic data
+👥 Peer Comparison: Real events affect many, fraud shows identical patterns
+📱 Device Fingerprinting: Detects multiple accounts from same device
+🕸 Fraud Ring Detection: Identifies coordinated attack clusters
+Risk Scoring:
+0–30 → Approve
+31–70 → Verify
+71–100 → Block
+Fairness:
+Reputation-based trust
+Grace thresholds
+No instant blocking for genuine users
+Result:
+✔ Fast payouts for real workers
+✔ Early detection of fraud rings
+✔ System remains financially secure
+
